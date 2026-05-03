@@ -1,0 +1,51 @@
+# ──────────────────────────────────────────────────────────────
+# Tooth Detection Pipeline – master configuration
+# ──────────────────────────────────────────────────────────────
+
+# ── Paths ────────────────────────────────────────────────────
+dataset:
+  niihhaa_root: "../Niihhaa-Dataset-4ac91db/dataset"
+  folders:
+    - name: "folder 1"
+      annotations_dir: "annotations"
+      images_dir: "OPGs"
+    - name: "folder 2"
+      annotations_dir: "annnotations"   # typo in original dataset (3 n's)
+      images_dir: "OPGs"
+    - name: "folder 3"
+      annotations_dir: "annotations"
+      images_dir: "OPGs"
+
+  yolo_output: "data/yolo_dataset"
+  val_ratio: 0.15
+  random_seed: 42
+
+# ── Class mapping ────────────────────────────────────────────
+classes:
+  - molar
+  - premolar
+  - canine
+  - lateral_incisor
+  - central_incisor
+
+# ── Training ─────────────────────────────────────────────────
+training:
+  model: "yolov8m-seg.pt"
+  epochs: 150
+  imgsz: 1024
+  batch: 4
+  patience: 30
+  device: 0             # use NVIDIA GPU (cuda:0)
+  project: "runs/segment"
+  name: "tooth_seg"
+  exist_ok: true
+
+# ── Inference ────────────────────────────────────────────────
+inference:
+  weights: "runs/segment/tooth_seg/weights/best.pt"
+  input_dir: "data/input_opgs"
+  output_dir: "data/output"
+  confidence: 0.25
+  iou_threshold: 0.45
+  imgsz: 1024
+  bbox_expand_ratio: 0.40   # 40 % expansion for tooth + bone crop

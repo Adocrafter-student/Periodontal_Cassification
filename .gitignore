@@ -1,0 +1,5 @@
+# YOLO train split — large generated data; regenerate with scripts/01_convert_labelme_to_yolo.py
+data/yolo_dataset/train/images/*
+!data/yolo_dataset/train/images/.gitkeep
+data/yolo_dataset/train/labels/*
+!data/yolo_dataset/train/labels/.gitkeep

@@ -1,0 +1,1082 @@
+[
+  {
+    "image_id": "ds2_train_102.png",
+    "image_width": 2800,
+    "image_height": 1500,
+    "num_teeth_detected": 25,
+    "teeth": [
+      {
+        "tooth_number": "21",
+        "tooth_type": "molar",
+        "bbox": [
+          537.5,
+          236.3,
+          681.4,
+          564.6
+        ],
+        "expanded_bbox": [
+          479,
+          105,
+          738,
+          695
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_21.png",
+        "mask_path": "masks/ds2_train_102_tooth_21_mask.png",
+        "confidence": 0.9419
+      },
+      {
+        "tooth_number": "11",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1334.1,
+          172.9,
+          1455.7,
+          542.0
+        ],
+        "expanded_bbox": [
+          1285,
+          25,
+          1504,
+          689
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_11.png",
+        "mask_path": "masks/ds2_train_102_tooth_11_mask.png",
+        "confidence": 0.9386
+      },
+      {
+        "tooth_number": "20",
+        "tooth_type": "molar",
+        "bbox": [
+          673.8,
+          255.9,
+          836.1,
+          580.1
+        ],
+        "expanded_bbox": [
+          608,
+          126,
+          900,
+          709
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_20.png",
+        "mask_path": "masks/ds2_train_102_tooth_20_mask.png",
+        "confidence": 0.9305
+      },
+      {
+        "tooth_number": "14",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1207.5,
+          183.5,
+          1332.2,
+          541.1
+        ],
+        "expanded_bbox": [
+          1157,
+          40,
+          1382,
+          684
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_14.png",
+        "mask_path": "masks/ds2_train_102_tooth_14_mask.png",
+        "confidence": 0.9263
+      },
+      {
+        "tooth_number": "30",
+        "tooth_type": "molar",
+        "bbox": [
+          2162.4,
+          589.8,
+          2316.1,
+          855.0
+        ],
+        "expanded_bbox": [
+          2100,
+          483,
+          2377,
+          961
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_30.png",
+        "mask_path": "masks/ds2_train_102_tooth_30_mask.png",
+        "confidence": 0.9243
+      },
+      {
+        "tooth_number": "28",
+        "tooth_type": "molar",
+        "bbox": [
+          1863.0,
+          212.7,
+          2064.9,
+          533.9
+        ],
+        "expanded_bbox": [
+          1782,
+          84,
+          2145,
+          662
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_28.png",
+        "mask_path": "masks/ds2_train_102_tooth_28_mask.png",
+        "confidence": 0.9241
+      },
+      {
+        "tooth_number": "42",
+        "tooth_type": "premolar",
+        "bbox": [
+          974.1,
+          614.2,
+          1073.7,
+          905.4
+        ],
+        "expanded_bbox": [
+          934,
+          497,
+          1113,
+          1021
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_42.png",
+        "mask_path": "masks/ds2_train_102_tooth_42_mask.png",
+        "confidence": 0.9219
+      },
+      {
+        "tooth_number": "22",
+        "tooth_type": "molar",
+        "bbox": [
+          395.6,
+          579.5,
+          667.8,
+          780.6
+        ],
+        "expanded_bbox": [
+          286,
+          499,
+          776,
+          861
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_22.png",
+        "mask_path": "masks/ds2_train_102_tooth_22_mask.png",
+        "confidence": 0.9213
+      },
+      {
+        "tooth_number": "23",
+        "tooth_type": "canine",
+        "bbox": [
+          1497.4,
+          573.5,
+          1596.7,
+          901.4
+        ],
+        "expanded_bbox": [
+          1457,
+          442,
+          1636,
+          1032
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_23.png",
+        "mask_path": "masks/ds2_train_102_tooth_23_mask.png",
+        "confidence": 0.9164
+      },
+      {
+        "tooth_number": "27",
+        "tooth_type": "premolar",
+        "bbox": [
+          1693.1,
+          583.1,
+          1800.4,
+          901.0
+        ],
+        "expanded_bbox": [
+          1650,
+          455,
+          1843,
+          1028
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_27.png",
+        "mask_path": "masks/ds2_train_102_tooth_27_mask.png",
+        "confidence": 0.9159
+      },
+      {
+        "tooth_number": "29",
+        "tooth_type": "molar",
+        "bbox": [
+          2025.2,
+          281.9,
+          2145.7,
+          520.8
+        ],
+        "expanded_bbox": [
+          1977,
+          186,
+          2193,
+          616
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_29.png",
+        "mask_path": "masks/ds2_train_102_tooth_29_mask.png",
+        "confidence": 0.9151
+      },
+      {
+        "tooth_number": "43",
+        "tooth_type": "premolar",
+        "bbox": [
+          879.3,
+          609.3,
+          983.7,
+          906.0
+        ],
+        "expanded_bbox": [
+          837,
+          490,
+          1025,
+          1024
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_43.png",
+        "mask_path": "masks/ds2_train_102_tooth_43_mask.png",
+        "confidence": 0.9131
+      },
+      {
+        "tooth_number": "17",
+        "tooth_type": "canine",
+        "bbox": [
+          997.9,
+          164.7,
+          1127.6,
+          557.0
+        ],
+        "expanded_bbox": [
+          946,
+          7,
+          1179,
+          713
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_17.png",
+        "mask_path": "masks/ds2_train_102_tooth_17_mask.png",
+        "confidence": 0.9128
+      },
+      {
+        "tooth_number": "19",
+        "tooth_type": "premolar",
+        "bbox": [
+          824.3,
+          267.7,
+          920.9,
+          570.4
+        ],
+        "expanded_bbox": [
+          785,
+          146,
+          959,
+          691
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_19.png",
+        "mask_path": "masks/ds2_train_102_tooth_19_mask.png",
+        "confidence": 0.9108
+      },
+      {
+        "tooth_number": "15",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1166.9,
+          570.8,
+          1252.7,
+          834.3
+        ],
+        "expanded_bbox": [
+          1132,
+          465,
+          1287,
+          939
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_15.png",
+        "mask_path": "masks/ds2_train_102_tooth_15_mask.png",
+        "confidence": 0.9063
+      },
+      {
+        "tooth_number": "24",
+        "tooth_type": "canine",
+        "bbox": [
+          1541.0,
+          172.7,
+          1657.0,
+          534.7
+        ],
+        "expanded_bbox": [
+          1494,
+          27,
+          1703,
+          679
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_24.png",
+        "mask_path": "masks/ds2_train_102_tooth_24_mask.png",
+        "confidence": 0.9059
+      },
+      {
+        "tooth_number": "25",
+        "tooth_type": "premolar",
+        "bbox": [
+          1593.0,
+          590.9,
+          1698.8,
+          869.9
+        ],
+        "expanded_bbox": [
+          1550,
+          479,
+          1741,
+          981
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_25.png",
+        "mask_path": "masks/ds2_train_102_tooth_25_mask.png",
+        "confidence": 0.9024
+      },
+      {
+        "tooth_number": "18",
+        "tooth_type": "premolar",
+        "bbox": [
+          916.8,
+          255.8,
+          1022.5,
+          565.5
+        ],
+        "expanded_bbox": [
+          874,
+          131,
+          1064,
+          689
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_18.png",
+        "mask_path": "masks/ds2_train_102_tooth_18_mask.png",
+        "confidence": 0.8964
+      },
+      {
+        "tooth_number": "41",
+        "tooth_type": "canine",
+        "bbox": [
+          1070.9,
+          584.9,
+          1174.0,
+          916.8
+        ],
+        "expanded_bbox": [
+          1029,
+          452,
+          1215,
+          1049
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_41.png",
+        "mask_path": "masks/ds2_train_102_tooth_41_mask.png",
+        "confidence": 0.8939
+      },
+      {
+        "tooth_number": "26",
+        "tooth_type": "premolar",
+        "bbox": [
+          1637.7,
+          251.9,
+          1753.8,
+          525.1
+        ],
+        "expanded_bbox": [
+          1591,
+          142,
+          1800,
+          634
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_26.png",
+        "mask_path": "masks/ds2_train_102_tooth_26_mask.png",
+        "confidence": 0.8879
+      },
+      {
+        "tooth_number": "13",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1254.2,
+          570.5,
+          1333.9,
+          813.1
+        ],
+        "expanded_bbox": [
+          1222,
+          473,
+          1365,
+          910
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_13.png",
+        "mask_path": "masks/ds2_train_102_tooth_13_mask.png",
+        "confidence": 0.8838
+      },
+      {
+        "tooth_number": "16",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1115.6,
+          226.3,
+          1209.3,
+          533.5
+        ],
+        "expanded_bbox": [
+          1078,
+          103,
+          1246,
+          656
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_16.png",
+        "mask_path": "masks/ds2_train_102_tooth_16_mask.png",
+        "confidence": 0.8728
+      },
+      {
+        "tooth_number": "22",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1450.1,
+          198.3,
+          1548.9,
+          532.1
+        ],
+        "expanded_bbox": [
+          1410,
+          64,
+          1588,
+          665
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_22.png",
+        "mask_path": "masks/ds2_train_102_tooth_22_mask.png",
+        "confidence": 0.8715
+      },
+      {
+        "tooth_number": "12",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1335.6,
+          562.4,
+          1415.4,
+          812.6
+        ],
+        "expanded_bbox": [
+          1303,
+          462,
+          1447,
+          912
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_12.png",
+        "mask_path": "masks/ds2_train_102_tooth_12_mask.png",
+        "confidence": 0.8704
+      },
+      {
+        "tooth_number": "21",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1409.3,
+          569.1,
+          1507.5,
+          856.7
+        ],
+        "expanded_bbox": [
+          1370,
+          454,
+          1546,
+          971
+        ],
+        "crop_path": "crops/ds2_train_102_tooth_21.png",
+        "mask_path": "masks/ds2_train_102_tooth_21_mask.png",
+        "confidence": 0.8457
+      }
+    ]
+  },
+  {
+    "image_id": "ds2_train_6.png",
+    "image_width": 2800,
+    "image_height": 1500,
+    "num_teeth_detected": 31,
+    "teeth": [
+      {
+        "tooth_number": "23",
+        "tooth_type": "molar",
+        "bbox": [
+          668.7,
+          183.3,
+          812.4,
+          451.9
+        ],
+        "expanded_bbox": [
+          611,
+          75,
+          869,
+          559
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_23.png",
+        "mask_path": "masks/ds2_train_6_tooth_23_mask.png",
+        "confidence": 0.9355
+      },
+      {
+        "tooth_number": "22",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1416.6,
+          168.9,
+          1533.9,
+          455.9
+        ],
+        "expanded_bbox": [
+          1369,
+          54,
+          1580,
+          570
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_22.png",
+        "mask_path": "masks/ds2_train_6_tooth_22_mask.png",
+        "confidence": 0.934
+      },
+      {
+        "tooth_number": "31",
+        "tooth_type": "molar",
+        "bbox": [
+          1877.5,
+          481.5,
+          2076.4,
+          767.7
+        ],
+        "expanded_bbox": [
+          1797,
+          367,
+          2155,
+          882
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_31.png",
+        "mask_path": "masks/ds2_train_6_tooth_31_mask.png",
+        "confidence": 0.9335
+      },
+      {
+        "tooth_number": "12",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1294.3,
+          161.9,
+          1415.4,
+          460.9
+        ],
+        "expanded_bbox": [
+          1245,
+          42,
+          1463,
+          580
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_12.png",
+        "mask_path": "masks/ds2_train_6_tooth_12_mask.png",
+        "confidence": 0.9315
+      },
+      {
+        "tooth_number": "32",
+        "tooth_type": "molar",
+        "bbox": [
+          1909.0,
+          159.4,
+          2057.4,
+          456.0
+        ],
+        "expanded_bbox": [
+          1849,
+          40,
+          2116,
+          574
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_32.png",
+        "mask_path": "masks/ds2_train_6_tooth_32_mask.png",
+        "confidence": 0.9313
+      },
+      {
+        "tooth_number": "33",
+        "tooth_type": "molar",
+        "bbox": [
+          2051.2,
+          147.4,
+          2193.5,
+          441.7
+        ],
+        "expanded_bbox": [
+          1994,
+          29,
+          2250,
+          559
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_33.png",
+        "mask_path": "masks/ds2_train_6_tooth_33_mask.png",
+        "confidence": 0.9308
+      },
+      {
+        "tooth_number": "24",
+        "tooth_type": "molar",
+        "bbox": [
+          597.9,
+          456.2,
+          810.6,
+          740.1
+        ],
+        "expanded_bbox": [
+          512,
+          342,
+          895,
+          853
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_24.png",
+        "mask_path": "masks/ds2_train_6_tooth_24_mask.png",
+        "confidence": 0.9305
+      },
+      {
+        "tooth_number": "30",
+        "tooth_type": "premolar",
+        "bbox": [
+          1806.7,
+          165.4,
+          1910.8,
+          466.2
+        ],
+        "expanded_bbox": [
+          1765,
+          45,
+          1952,
+          586
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_30.png",
+        "mask_path": "masks/ds2_train_6_tooth_30_mask.png",
+        "confidence": 0.9254
+      },
+      {
+        "tooth_number": "22",
+        "tooth_type": "molar",
+        "bbox": [
+          770.7,
+          476.1,
+          973.9,
+          757.1
+        ],
+        "expanded_bbox": [
+          689,
+          363,
+          1055,
+          869
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_22.png",
+        "mask_path": "masks/ds2_train_6_tooth_22_mask.png",
+        "confidence": 0.925
+      },
+      {
+        "tooth_number": "28",
+        "tooth_type": "premolar",
+        "bbox": [
+          1711.3,
+          162.5,
+          1818.4,
+          465.4
+        ],
+        "expanded_bbox": [
+          1668,
+          41,
+          1861,
+          586
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_28.png",
+        "mask_path": "masks/ds2_train_6_tooth_28_mask.png",
+        "confidence": 0.9245
+      },
+      {
+        "tooth_number": "34",
+        "tooth_type": "molar",
+        "bbox": [
+          2035.2,
+          452.9,
+          2241.6,
+          719.9
+        ],
+        "expanded_bbox": [
+          1952,
+          346,
+          2324,
+          826
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_34.png",
+        "mask_path": "masks/ds2_train_6_tooth_34_mask.png",
+        "confidence": 0.9232
+      },
+      {
+        "tooth_number": "29",
+        "tooth_type": "premolar",
+        "bbox": [
+          1784.6,
+          496.7,
+          1887.3,
+          812.8
+        ],
+        "expanded_bbox": [
+          1743,
+          370,
+          1928,
+          939
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_29.png",
+        "mask_path": "masks/ds2_train_6_tooth_29_mask.png",
+        "confidence": 0.9169
+      },
+      {
+        "tooth_number": "19",
+        "tooth_type": "premolar",
+        "bbox": [
+          949.9,
+          482.9,
+          1073.3,
+          807.6
+        ],
+        "expanded_bbox": [
+          900,
+          353,
+          1122,
+          937
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_19.png",
+        "mask_path": "masks/ds2_train_6_tooth_19_mask.png",
+        "confidence": 0.9135
+      },
+      {
+        "tooth_number": "18",
+        "tooth_type": "premolar",
+        "bbox": [
+          1009.2,
+          172.3,
+          1145.9,
+          465.2
+        ],
+        "expanded_bbox": [
+          954,
+          55,
+          1200,
+          582
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_18.png",
+        "mask_path": "masks/ds2_train_6_tooth_18_mask.png",
+        "confidence": 0.9132
+      },
+      {
+        "tooth_number": "17",
+        "tooth_type": "premolar",
+        "bbox": [
+          1052.3,
+          482.6,
+          1154.2,
+          779.2
+        ],
+        "expanded_bbox": [
+          1011,
+          363,
+          1194,
+          897
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_17.png",
+        "mask_path": "masks/ds2_train_6_tooth_17_mask.png",
+        "confidence": 0.9093
+      },
+      {
+        "tooth_number": "35",
+        "tooth_type": "molar",
+        "bbox": [
+          2152.6,
+          94.8,
+          2284.7,
+          328.0
+        ],
+        "expanded_bbox": [
+          2099,
+          1,
+          2337,
+          421
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_35.png",
+        "mask_path": "masks/ds2_train_6_tooth_35_mask.png",
+        "confidence": 0.9092
+      },
+      {
+        "tooth_number": "26",
+        "tooth_type": "canine",
+        "bbox": [
+          1626.0,
+          181.4,
+          1738.4,
+          456.5
+        ],
+        "expanded_bbox": [
+          1580,
+          71,
+          1783,
+          566
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_26.png",
+        "mask_path": "masks/ds2_train_6_tooth_26_mask.png",
+        "confidence": 0.908
+      },
+      {
+        "tooth_number": "11",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1352.9,
+          483.3,
+          1428.1,
+          727.8
+        ],
+        "expanded_bbox": [
+          1322,
+          385,
+          1458,
+          825
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_11.png",
+        "mask_path": "masks/ds2_train_6_tooth_11_mask.png",
+        "confidence": 0.9054
+      },
+      {
+        "tooth_number": "25",
+        "tooth_type": "molar",
+        "bbox": [
+          575.1,
+          154.5,
+          711.6,
+          355.7
+        ],
+        "expanded_bbox": [
+          520,
+          74,
+          766,
+          436
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_25.png",
+        "mask_path": "masks/ds2_train_6_tooth_25_mask.png",
+        "confidence": 0.9047
+      },
+      {
+        "tooth_number": "21",
+        "tooth_type": "central_incisor",
+        "bbox": [
+          1429.4,
+          485.3,
+          1503.5,
+          739.8
+        ],
+        "expanded_bbox": [
+          1399,
+          383,
+          1533,
+          841
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_21.png",
+        "mask_path": "masks/ds2_train_6_tooth_21_mask.png",
+        "confidence": 0.9021
+      },
+      {
+        "tooth_number": "13",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1268.8,
+          484.5,
+          1348.7,
+          745.3
+        ],
+        "expanded_bbox": [
+          1236,
+          380,
+          1380,
+          849
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_13.png",
+        "mask_path": "masks/ds2_train_6_tooth_13_mask.png",
+        "confidence": 0.9019
+      },
+      {
+        "tooth_number": "15",
+        "tooth_type": "canine",
+        "bbox": [
+          1171.1,
+          483.1,
+          1268.2,
+          793.6
+        ],
+        "expanded_bbox": [
+          1132,
+          358,
+          1307,
+          917
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_15.png",
+        "mask_path": "masks/ds2_train_6_tooth_15_mask.png",
+        "confidence": 0.9001
+      },
+      {
+        "tooth_number": "36",
+        "tooth_type": "molar",
+        "bbox": [
+          2198.9,
+          496.9,
+          2362.4,
+          687.1
+        ],
+        "expanded_bbox": [
+          2133,
+          420,
+          2427,
+          763
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_36.png",
+        "mask_path": "masks/ds2_train_6_tooth_36_mask.png",
+        "confidence": 0.8994
+      },
+      {
+        "tooth_number": "24",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1539.2,
+          177.3,
+          1625.5,
+          453.0
+        ],
+        "expanded_bbox": [
+          1504,
+          67,
+          1660,
+          563
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_24.png",
+        "mask_path": "masks/ds2_train_6_tooth_24_mask.png",
+        "confidence": 0.8982
+      },
+      {
+        "tooth_number": "21",
+        "tooth_type": "molar",
+        "bbox": [
+          800.0,
+          181.7,
+          960.7,
+          466.8
+        ],
+        "expanded_bbox": [
+          735,
+          67,
+          1024,
+          580
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_21.png",
+        "mask_path": "masks/ds2_train_6_tooth_21_mask.png",
+        "confidence": 0.8971
+      },
+      {
+        "tooth_number": "25",
+        "tooth_type": "canine",
+        "bbox": [
+          1602.8,
+          482.7,
+          1696.9,
+          802.8
+        ],
+        "expanded_bbox": [
+          1565,
+          354,
+          1734,
+          930
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_25.png",
+        "mask_path": "masks/ds2_train_6_tooth_25_mask.png",
+        "confidence": 0.8962
+      },
+      {
+        "tooth_number": "16",
+        "tooth_type": "canine",
+        "bbox": [
+          1086.6,
+          118.9,
+          1218.6,
+          465.3
+        ],
+        "expanded_bbox": [
+          1033,
+          0,
+          1271,
+          603
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_16.png",
+        "mask_path": "masks/ds2_train_6_tooth_16_mask.png",
+        "confidence": 0.8937
+      },
+      {
+        "tooth_number": "27",
+        "tooth_type": "premolar",
+        "bbox": [
+          1694.9,
+          491.0,
+          1789.8,
+          776.4
+        ],
+        "expanded_bbox": [
+          1656,
+          376,
+          1827,
+          890
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_27.png",
+        "mask_path": "masks/ds2_train_6_tooth_27_mask.png",
+        "confidence": 0.8922
+      },
+      {
+        "tooth_number": "23",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1511.1,
+          482.7,
+          1594.4,
+          766.9
+        ],
+        "expanded_bbox": [
+          1477,
+          368,
+          1627,
+          880
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_23.png",
+        "mask_path": "masks/ds2_train_6_tooth_23_mask.png",
+        "confidence": 0.8838
+      },
+      {
+        "tooth_number": "14",
+        "tooth_type": "lateral_incisor",
+        "bbox": [
+          1209.2,
+          157.4,
+          1298.1,
+          459.9
+        ],
+        "expanded_bbox": [
+          1173,
+          36,
+          1333,
+          580
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_14.png",
+        "mask_path": "masks/ds2_train_6_tooth_14_mask.png",
+        "confidence": 0.8798
+      },
+      {
+        "tooth_number": "20",
+        "tooth_type": "premolar",
+        "bbox": [
+          945.5,
+          182.3,
+          1055.2,
+          466.3
+        ],
+        "expanded_bbox": [
+          901,
+          68,
+          1099,
+          579
+        ],
+        "crop_path": "crops/ds2_train_6_tooth_20.png",
+        "mask_path": "masks/ds2_train_6_tooth_20_mask.png",
+        "confidence": 0.8697
+      }
+    ]
+  }
+]

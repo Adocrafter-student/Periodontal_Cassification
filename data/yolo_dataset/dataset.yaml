@@ -1,0 +1,9 @@
+path: D:\master-thesis\periodontal_classification\data\yolo_dataset
+train: train/images
+val: val/images
+names:
+  0: molar
+  1: premolar
+  2: canine
+  3: lateral_incisor
+  4: central_incisor
