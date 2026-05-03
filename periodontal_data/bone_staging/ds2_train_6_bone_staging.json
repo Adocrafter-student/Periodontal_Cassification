@@ -1,0 +1,384 @@
+{
+  "image_id": "ds2_train_6.png",
+  "staging": {
+    "stage": 3,
+    "severity_stage": 3,
+    "tooth_loss_stage": 0,
+    "complexity_stage": 0,
+    "max_cal_mm": 13.0,
+    "max_rbl_percent": 100.0,
+    "extent": "localized",
+    "teeth_analyzed": 31,
+    "teeth_with_bone_loss": 2,
+    "bone_loss_pattern": "horizontal"
+  },
+  "per_tooth": [
+    {
+      "tooth_number": "17",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "21",
+      "tooth_type": "central_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "36",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "11",
+      "tooth_type": "central_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "26",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "27",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "47",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "25",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)"
+      ]
+    },
+    {
+      "tooth_number": "46",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "24",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)"
+      ]
+    },
+    {
+      "tooth_number": "37",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "35",
+      "tooth_type": "premolar",
+      "rbl_percent": 3.0,
+      "cal_mm": 0.4,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)"
+      ]
+    },
+    {
+      "tooth_number": "45",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "14",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "44",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "28",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "23",
+      "tooth_type": "canine",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "41",
+      "tooth_type": "central_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "18",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "31",
+      "tooth_type": "central_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "42",
+      "tooth_type": "lateral_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "43",
+      "tooth_type": "canine",
+      "rbl_percent": 26.6,
+      "cal_mm": 4.3,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)"
+      ]
+    },
+    {
+      "tooth_number": "38",
+      "tooth_type": "molar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "22",
+      "tooth_type": "lateral_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "16",
+      "tooth_type": "molar",
+      "rbl_percent": 100.0,
+      "cal_mm": 13.0,
+      "bone_crest_position": "apical_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)"
+      ]
+    },
+    {
+      "tooth_number": "33",
+      "tooth_type": "canine",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "13",
+      "tooth_type": "canine",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "34",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "32",
+      "tooth_type": "lateral_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "12",
+      "tooth_type": "lateral_incisor",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    },
+    {
+      "tooth_number": "15",
+      "tooth_type": "premolar",
+      "rbl_percent": 0.0,
+      "cal_mm": 0.0,
+      "bone_crest_position": "coronal_third",
+      "analysis_ok": true,
+      "notes": [
+        "Partial landmark fallback (missing CEJ or apex)",
+        "No bone crest detected, assumed healthy"
+      ]
+    }
+  ],
+  "missing_teeth": []
+}

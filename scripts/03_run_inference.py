@@ -14,7 +14,6 @@ Usage:
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
 
@@ -75,7 +74,7 @@ def process_single_image(
     for i in range(len(boxes)):
         cls_id = int(boxes.cls[i].item())
         confidence = float(boxes.conf[i].item())
-        bbox = boxes.xyxy[i].tolist()  # [x1, y1, x2, y2]
+        bbox = boxes.xyxy[i].tolist()
 
         tooth_type = CLASS_NAMES[cls_id] if cls_id < len(CLASS_NAMES) else "unknown"
 
@@ -85,6 +84,7 @@ def process_single_image(
             "confidence": confidence,
             "class_id": cls_id,
             "_mask_idx": i,
+            "_det_id": f"{i:03d}",
         }
         detections.append(det)
 
@@ -93,15 +93,18 @@ def process_single_image(
     teeth_output = []
     for det in detections:
         tooth_num = det.get("tooth_number", "unknown")
-        crop_filename = f"{stem}_tooth_{tooth_num}.png"
-        mask_filename = f"{stem}_tooth_{tooth_num}_mask.png"
+        det_id = det.pop("_det_id", "000")
+        mask_idx = det.pop("_mask_idx", None)
+        det.pop("class_id", None)
+
+        crop_filename = f"{stem}_det_{det_id}_tooth_{tooth_num}.png"
+        mask_filename = f"{stem}_det_{det_id}_tooth_{tooth_num}_mask.png"
 
         crop_img, expanded_bbox = crop_tooth_region(
             image, det["bbox"], expand_ratio
         )
         cv2.imwrite(str(crops_dir / crop_filename), crop_img)
 
-        mask_idx = det.pop("_mask_idx", None)
         if masks_data is not None and mask_idx is not None:
             full_mask = masks_data.data[mask_idx].cpu().numpy()
             full_mask_resized = cv2.resize(
@@ -116,16 +119,16 @@ def process_single_image(
             mask_filename = None
 
         teeth_output.append({
+            "detection_id": det_id,
             "tooth_number": tooth_num,
             "tooth_type": det["tooth_type"],
+            "fdi_quadrant": det.get("fdi_quadrant", "unknown"),
             "bbox": [round(v, 1) for v in det["bbox"]],
             "expanded_bbox": expanded_bbox,
             "crop_path": f"crops/{crop_filename}",
             "mask_path": f"masks/{mask_filename}" if mask_filename else None,
             "confidence": round(det["confidence"], 4),
         })
-
-    det.pop("class_id", None)
 
     return {
         "image_id": image_path.name,

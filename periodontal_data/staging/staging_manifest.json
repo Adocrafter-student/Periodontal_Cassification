@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "image_id": "ds2_train_102.png",
+      "output_path": "D:\\master-thesis\\periodontal_classification\\periodontal_data\\staging\\ds2_train_102_staging.json",
+      "stage": 3,
+      "num_teeth_analyzed": 25
+    },
+    {
+      "image_id": "ds2_train_6.png",
+      "output_path": "D:\\master-thesis\\periodontal_classification\\periodontal_data\\staging\\ds2_train_6_staging.json",
+      "stage": 3,
+      "num_teeth_analyzed": 31
+    }
+  ]
+}
